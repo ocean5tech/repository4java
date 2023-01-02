@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ada7d4-086f-45fa-8392-265835d941f7" name="Changes" comment="main class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Demo/Doctor.java" afterDir="false" />
+    <list default="true" id="23ada7d4-086f-45fa-8392-265835d941f7" name="Changes" comment="before add dependency">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Boot Complete Tutorial - Master Class.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot Complete Tutorial - Master Class.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,7 +44,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/repository4java",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "spring.configuration.checksum": "421a5c30af09f535d64fd08b10a1ec29"
   }
 }]]></component>
   <component name="RunManager">
@@ -70,7 +78,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672638044825</updated>
-      <workItem from="1672638046081" duration="1705000" />
+      <workItem from="1672638046081" duration="5455000" />
+      <workItem from="1672644296542" duration="1615000" />
+      <workItem from="1672645920492" duration="3966000" />
     </task>
     <task id="LOCAL-00001" summary="main class">
       <created>1672638930503</created>
@@ -79,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672638930503</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="before add dependency">
+      <created>1672639817500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672639817500</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="main class" />
+    <MESSAGE value="before add dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="before add dependency" />
   </component>
 </project>

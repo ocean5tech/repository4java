@@ -31,4 +31,11 @@
         <name>Archetype - SpringFrameworkDemo</name>
         <url>http://maven.apache.org</url>
         </project>
-4. 
+4. 如果有dependencies背景变黄，或者字体变红，是没有下载Maven依赖项
+  4-1. 去这里确认依赖项写的正确 https://mvnrepository.com/
+  4-2. 进入项目文件夹后执行 mvn install 命令
+5. 如果有dependencies背景变黄，或者字体变红，右键点击pom.xml，Maven -> Reload Project
+6. 建立spring.xml的时候去google "spring bean xml"
+7.  "spring.xml"直接写就行，不用在前面写configLocation,可以自动加
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
