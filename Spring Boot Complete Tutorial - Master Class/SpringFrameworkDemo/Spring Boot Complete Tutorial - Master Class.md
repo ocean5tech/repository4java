@@ -39,3 +39,8 @@
 7.  "spring.xml"直接写就行，不用在前面写configLocation,可以自动加
 
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+8. 总结
+主要知识点
+  - Bean的定义方式，可以XML，可以Annotation，可以Config
+  - Bean的Scope
+  - Bean的生命周期

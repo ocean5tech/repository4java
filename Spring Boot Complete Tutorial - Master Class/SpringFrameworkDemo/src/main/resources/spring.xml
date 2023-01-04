@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="Demo"></context:component-scan>
 
-    <!-- bean definitions here -->
-    <bean id="doctor" class="Demo.Doctor"></bean>
+<!--    &lt;!&ndash; bean definitions here &ndash;&gt;-->
+<!--    <bean id="doctor" class="Demo.Doctor">-->
+<!--        &lt;!&ndash; <property name="qualification" value="MBBS"></property> &ndash;&gt;-->
+<!--        <constructor-arg value="MBBS"></constructor-arg>-->
+<!--        &lt;!&ndash; property name="nurse" ref="nurse"></property>   使用ref可以去参考id为nurse的injection中取得初期化值&ndash;&gt;-->
+<!--    </bean>-->
+<!--    <bean id="nurse" class="Demo.Nurse"></bean>-->
 </beans>

@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ada7d4-086f-45fa-8392-265835d941f7" name="Changes" comment="after add dependency" />
+    <list default="true" id="23ada7d4-086f-45fa-8392-265835d941f7" name="Changes" comment="after add dependency">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Boot Complete Tutorial - Master Class.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot Complete Tutorial - Master Class.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Demo/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Demo/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Demo/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Demo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,8 +54,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/repository4java",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "spring.configuration.checksum": "421a5c30af09f535d64fd08b10a1ec29"
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "spring.configuration.checksum": "c4a78becf610d53939047983dc64d53a"
   }
 }]]></component>
   <component name="RunManager">
@@ -75,6 +89,7 @@
       <workItem from="1672638046081" duration="5455000" />
       <workItem from="1672644296542" duration="1615000" />
       <workItem from="1672645920492" duration="4212000" />
+      <workItem from="1672838644408" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="main class">
       <created>1672638930503</created>
