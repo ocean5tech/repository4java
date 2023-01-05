@@ -2,13 +2,15 @@
 
 ### @aspect注解无法添加
 把pom.xml里面的<scope>runtime</scope>删除
-<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
-<dependency>
-    <groupId>org.aspectj</groupId>
-    <artifactId>aspectjweaver</artifactId>
-    <version>1.9.19</version>
-    <scope>runtime</scope>
-</dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.9.19</version>
+                <scope>runtime</scope>
+            </dependency>
+            
 
 ### AOP面向切面编程
 
