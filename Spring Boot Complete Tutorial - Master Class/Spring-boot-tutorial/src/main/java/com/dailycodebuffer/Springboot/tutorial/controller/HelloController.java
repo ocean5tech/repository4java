@@ -5,6 +5,8 @@ package com.dailycodebuffer.Springboot.tutorial.controller;
  * @Description:
  */
 
+
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,9 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    @Value("${welcome.message}")   // 访问application.properties 变量
+    private String welcomeMessage;
     // @RequestMapping(value = "/", method = RequestMethod.GET)
     @GetMapping("/")
     public String helloWorld(){
-        return "Welcome to Daily code buffer！！";
+        return welcomeMessage;
     }
 }
