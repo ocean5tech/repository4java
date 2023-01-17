@@ -1,6 +1,7 @@
 package com.dailycodebuffer.spring.data.jpa.tutorial.repository;
 
 import com.dailycodebuffer.spring.data.jpa.tutorial.entity.Course;
+import com.dailycodebuffer.spring.data.jpa.tutorial.entity.Student;
 import com.dailycodebuffer.spring.data.jpa.tutorial.entity.Teacher;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -102,7 +103,7 @@ class CourseRepositoryTest {
     }
 
     @Test
-    public void printfindByTitleContaining(){
+    public void printFindByTitleContaining(){
         Pageable firstPageTenRecords =
                 PageRequest.of(0,10);
 
@@ -114,6 +115,30 @@ class CourseRepositoryTest {
         System.out.println("courses = " + courses);
     }
     
-    
+    @Test
+    public void saveCourseWithStudentAndTeacher(){
+
+        Teacher teacher=Teacher.builder()
+                .firstName("tfn3")
+                .lastName("tln3")
+                .build();
+
+        Student student = Student.builder()
+                .firstName("sfn2")
+                .lastname("sln2")
+                .emailId("stu3@gmail.com")
+                .build();
+
+        Course course = Course.builder()
+                .title("AI")
+                .credit(12)
+                .teacher(teacher)
+                .build();
+
+        course.addStudents(student);
+
+        courseRepository.save(course);
+
+    }
 
 }
